@@ -22,7 +22,7 @@
     "@typescript-eslint/parser": "5.32.0",
     "@vitejs/plugin-react": "2.0.0",
     "autoprefixer": "10.4.8",
-    "eslint": "^8.21.0",
+    "eslint": "8.21.0",
     "eslint-config-airbnb-typescript": "17.0.0",
     "eslint-config-prettier": "8.5.0",
     "eslint-config-react-app": "7.0.1",

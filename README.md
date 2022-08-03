@@ -1,4 +1,4 @@
-This is a Vite + React core project.
+# This is a Vite + React core project.
 
 To speed up, development I have setting up TailwindCSS and Eslint in this core project. So feel free to use it
 

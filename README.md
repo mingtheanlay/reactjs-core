@@ -1,6 +1,8 @@
 # This is a Vite + React core project.
 
-To speed up, development I have setting up TailwindCSS and Eslint in this core project. So feel free to use it
+To speed up the development, I have set up TailwindCSS and Eslint in this core project. 
+
+Feel free to use it
 
 ## Getting Started
 

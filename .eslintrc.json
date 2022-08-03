@@ -20,6 +20,7 @@
     "sourceType": "module"
   },
   "plugins": ["react", "@typescript-eslint", "prettier"],
+  "ignorePatterns": ["*.cjs"],
   "rules": {
     "@typescript-eslint/comma-dangle": ["off"],
     "comma-dangle": ["off"],

@@ -8,7 +8,8 @@
     "airbnb",
     "airbnb-typescript",
     "plugin:import/typescript",
-    "plugin:react/jsx-runtime"
+    "plugin:react/jsx-runtime",
+    "plugin:prettier/recommend"
   ],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
@@ -19,10 +20,10 @@
     "sourceType": "module",
     "project": "./tsconfig.json"
   },
-  "plugins": ["react", "@typescript-eslint"],
+  "plugins": ["react", "@typescript-eslint", "prettier"],
   "rules": {
     "@typescript-eslint/comma-dangle": ["off"],
-    "comma-dangle": "off",
+    "comma-dangle": ["off"],
     "react/function-component-definition": [
       "error",
       {
@@ -30,12 +31,17 @@
         "unnamedComponents": "arrow-function"
       }
     ],
-    "import/prefer-default-export": "off",
+    "import/prefer-default-export": ["off"],
     "import/no-extraneous-dependencies": [
       "error",
       {
         "devDependencies": true
       }
-    ]
+    ],
+    "react/jsx-uses-react": ["off"],
+    "react/jsx-in-jsx-scope": ["off"],
+    "react/jsx-props-no-spreading": ["warn"],
+    "no-shadow": ["off"],
+    "quotes": ["warn", "single", { "avoidEscape": true }]
   }
 }

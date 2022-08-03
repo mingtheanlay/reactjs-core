@@ -33,7 +33,6 @@
     "no-shadow": ["off"],
     "prettier/prettier": [
       "error",
-      {},
       {
         "usePrettierrc": true
       }
